@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buscador de Películas</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+  <div class="container">
+    <h1>Buscador de Películas 🎬</h1>
+
+    <p>¡Bienvenido a CineBuscador! Aquí puedes buscar tus películas favoritas fácilmente.</p>
+
+    <input type="text" id="searchInput" placeholder="Escribe una película..." />
+    <button id="searchBtn">Buscar</button>
+
+    <h2>Películas Destacadas</h2>
+    <div id="featured" class="movie-grid"></div>
+
+    <h2>Resultados de Búsqueda</h2>
+    <div id="results" class="movie-grid"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
